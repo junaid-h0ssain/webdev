@@ -1,0 +1,38 @@
+body{
+    background: #e8e8e8;
+}
+
+
+.icon{
+    display: block;
+    width: 400px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.give{
+    display: block;
+    width: 400px;
+    line-height: 24px;
+    margin-top: 20px;
+    padding: 10px 30px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #393838;
+    border-radius: 24px;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-right: 10px;
+    background: #c7c6c6;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.seen{
+    display: flex;
+    justify-content: center;
+}
