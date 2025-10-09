@@ -1,18 +1,20 @@
 body{
     background: #e8e8e8;
     margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dp{
     display: flex;
     max-width: 300px;
     margin: 10px;
+    box-shadow: 10px 10px 5px lightblue;
 }
 
 .card{
     display: flex;
     width: fit-content;
-    background: #0eab99;
+    background: #fb8b24;
     border: 1px solid black;
     padding: 20px;
     margin-left: auto;
