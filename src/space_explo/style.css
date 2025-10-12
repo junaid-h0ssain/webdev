@@ -1,6 +1,6 @@
 body{
     color: aliceblue;
-    background-image: url("jeremy-thomas-E0AHdsENmDg-unsplash.jpg");
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFiZDZ3ZjN6bTFzcG1kaTgyOWZ1OW1ic2gyOGpkcHFjMzByZzlyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TZf4ZyXb0lXXi/giphy.gif");
     background-size: cover;
     text-align: center;
 }
@@ -24,3 +24,22 @@ body{
   font-style: normal;
 }
 
+.cta{
+    color: red;
+    padding: 5px 10px;
+    border: red 2px;
+}
+
+.underline{
+    border-bottom: 4px solid white;
+}
+
+.boxy{
+    background-color: black;
+    width: fit-content;
+    margin: 5px auto;
+}
+
+.im{
+    width: 200px;
+}
