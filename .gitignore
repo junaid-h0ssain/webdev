@@ -9,3 +9,6 @@ yarn-error.log*
 .pnp.js
 
 .vscode/*
+
+/src/bdayCard/images
+/src/bdayCard/audio
