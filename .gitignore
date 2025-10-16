@@ -12,3 +12,5 @@ yarn-error.log*
 
 /src/bdayCard/images
 /src/bdayCard/audio
+
+*.exe
