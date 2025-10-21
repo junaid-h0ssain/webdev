@@ -173,6 +173,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // Add click effect for boxes
+    const boxes = document.querySelectorAll('.box1, .box2, .box3');
+    boxes.forEach(box => {
+        box.addEventListener('click', () => {
+            box.classList.add('active');
+        });
+    });
+    
     // Initialize background music
     initBackgroundMusic();
 });
