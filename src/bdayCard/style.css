@@ -39,3 +39,67 @@ body{
     position: absolute;
     animation: fall linear infinite;
 }
+
+.box1{
+    width: 500px;
+    height: 500px;
+    border: 6px solid purple;
+    border-radius: 3%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-image: url("images/wrapper.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1:hover{
+    width: 588px;
+    height: 748px;
+    background-image: url("images/box1.png");
+    background-size: cover;
+}
+
+h2{
+    font-size:50px;
+}
+
+.box2{
+    width: 500px;
+    height: 500px;
+    border: 6px solid purple;
+    border-radius: 3%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-image: url("images/wrapper.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box2:hover{
+    width: 588px;
+    height: 748px;
+    background-image: url("images/box2.png");
+    background-size: cover;
+}
+
+.box3{
+    width: 500px;
+    height: 500px;
+    border: 6px solid purple;
+    border-radius: 3%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-image: url("images/wrapper.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box3:hover{
+    width: 588px;
+    height: 748px;
+    background-image: url("images/box3.png");
+    background-size: cover;
+}
