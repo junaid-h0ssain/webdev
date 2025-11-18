@@ -1,18 +1,19 @@
-body{
-    background-color: pink;
+body {
+    /* background-color: #00bbff; */
+    background: linear-gradient(#ff00d9, #2c28f9);
 }
 
-.title{
+.title {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin-top: 50px;
 }
 
-.nav-col{
-    background-color:  palevioletred;
+.nav-col {
+    background-color: palevioletred;
 }
 
-.main-pic{
+.main-pic {
     /* clip-path: circle(); */
     border-radius: 40%;
     border: solid 5px palevioletred;
@@ -40,7 +41,7 @@ body{
     animation: fall linear infinite;
 }
 
-.box1{
+.box1 {
     width: 90%;
     max-width: 500px;
     height: 500px;
@@ -48,14 +49,14 @@ body{
     border-radius: 3%;
     margin-top: 30px;
     margin-bottom: 50px;
-    background-image: url("images/wrapper.jpg");
+    background-image: url("images/wrapper.webp");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
 
-.box1:hover{
+.box1:hover {
     transform: scale(1.05);
 }
 
@@ -69,14 +70,14 @@ body{
     cursor: pointer;
 }
 
-h2{
+h2 {
     font-size: calc(24px + 2vw);
     max-width: 90%;
     margin: 0 auto;
     word-wrap: break-word;
 }
 
-.box2{
+.box2 {
     width: 90%;
     max-width: 500px;
     height: 500px;
@@ -84,14 +85,14 @@ h2{
     border-radius: 3%;
     margin-top: 30px;
     margin-bottom: 50px;
-    background-image: url("images/wrapper.jpg");
+    background-image: url("images/wrapper.webp");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
 
-.box2:hover{
+.box2:hover {
     transform: scale(1.05);
 }
 
@@ -105,7 +106,7 @@ h2{
     cursor: pointer;
 }
 
-.box3{
+.box3 {
     width: 90%;
     max-width: 500px;
     height: 500px;
@@ -113,14 +114,14 @@ h2{
     border-radius: 3%;
     margin-top: 30px;
     margin-bottom: 50px;
-    background-image: url("images/wrapper.jpg");
+    background-image: url("images/wrapper.webp");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
 }
 
-.box3:hover{
+.box3:hover {
     transform: scale(1.05);
 }
 
@@ -130,6 +131,124 @@ h2{
     height: auto;
     aspect-ratio: 588/748;
     background-image: url("images/box3.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box4 {
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid purple;
+    border-radius: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url("images/wrapper.webp");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.box4:hover {
+    transform: scale(1.05);
+}
+
+.box4.active {
+    width: 90%;
+    max-width: 588px;
+    height: auto;
+    aspect-ratio: 588/748;
+    background-image: url("images/box4.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.box5 {
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid purple;
+    border-radius: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url("images/wrapper.webp");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.box5:hover {
+    transform: scale(1.05);
+}
+
+.box5.active {
+    width: 90%;
+    max-width: 588px;
+    height: auto;
+    aspect-ratio: 588/748;
+    background-image: url("images/box5.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.box6 {
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid purple;
+    border-radius: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url("images/wrapper.webp");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.box6:hover {
+    transform: scale(1.05);
+}
+
+.box6.active {
+    width: 90%;
+    max-width: 588px;
+    height: auto;
+    aspect-ratio: 588/748;
+    background-image: url("images/box6.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.box7 {
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    border: 6px solid purple;
+    border-radius: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url("images/wrapper.webp");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.box7:hover {
+    transform: scale(1.05);
+}
+
+.box7.active {
+    width: 90%;
+    max-width: 588px;
+    height: auto;
+    aspect-ratio: 588/748;
+    background-image: url("images/box7.jpg");
     background-size: cover;
     cursor: pointer;
 }
