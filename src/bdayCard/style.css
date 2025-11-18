@@ -252,3 +252,60 @@ h2 {
     background-size: cover;
     cursor: pointer;
 }
+
+.falling-background {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* Hide images once they fall off */
+    z-index: -1;
+    /* Make sure it's behind other content */
+}
+
+.falling-item {
+    position:relative;
+    top: -10%;
+    /* Start above the screen */
+    left: calc(var(--random-left) * 100%);
+    /* Random horizontal start */
+    transform: translateX(-50%);
+    /* Center horizontally */
+    animation: fall infinite;
+    animation-duration: 10s;
+    /* Adjust falling speed */
+    animation-delay: var(--animation-delay);
+    /* Stagger start times */
+    opacity: 0;
+    /* Start hidden */
+}
+
+/* Keyframes for the falling animation */
+@keyframes fall {
+    0% {
+        top: -10%;
+        /* Start above view */
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    10% {
+        opacity: 1;
+        /* Fade in */
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 110%;
+        /* End below view */
+        opacity: 0;
+        /* Fade out */
+        transform: rotate(360deg);
+        /* Optional: add rotation */
+    }
+}

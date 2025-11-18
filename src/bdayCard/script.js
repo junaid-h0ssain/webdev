@@ -184,3 +184,5 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initialize background music
     initBackgroundMusic();
 });
+
+
