@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Score Board</title>
+        <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Score Board</h1>
+
+        <section class="scoreboard">
+            <div class="team">
+                <h2 class="team-name">HOME</h2>
+                <div class="display" id="homeDisplay">0</div>
+                <div class="controls">
+                    <button class="btn" data-team="home" data-add="1">+1</button>
+                    <button class="btn" data-team="home" data-add="2">+2</button>
+                    <button class="btn" data-team="home" data-add="3">+3</button>
+                </div>
+            </div>
+
+            <div class="team">
+                <h2 class="team-name">GUEST</h2>
+                <div class="display" id="guestDisplay">0</div>
+                <div class="controls">
+                    <button class="btn" data-team="guest" data-add="1">+1</button>
+                    <button class="btn" data-team="guest" data-add="2">+2</button>
+                    <button class="btn" data-team="guest" data-add="3">+3</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="actions">
+            <button id="reset" class="reset">Reset</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
