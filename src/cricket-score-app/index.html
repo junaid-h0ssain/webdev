@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cricket Score Board</title>
+</head>
+
+<body>
+    <h1>Cricket Scoreboard</h1>
+
+    <div class="main-board">
+        <div class="overview">
+            <div class="score">
+                <h2>Score</h2>
+                <div class="big-score"><span id="runs">0</span>/<span id="wickets">0</span></div>
+                <div class="overs">Overs: <span id="overs">0</span>.<span id="balls">0</span></div>
+            </div>
+
+            <div class="players">
+                <div>
+                    <label>Batsman (Striker)</label>
+                    <input id="input-striker" value="Player 1">
+                    <div class="current">Striker: <span id="striker">Player 1</span></div>
+                </div>
+                <div>
+                    <label>Non-Striker</label>
+                    <input id="input-nonstriker" value="Player 2">
+                    <div class="current">Non-Striker: <span id="nonstriker">Player 2</span></div>
+                </div>
+                <div>
+                    <label>Bowler</label>
+                    <input id="input-bowler" value="Bowler 1">
+                    <div class="current">Bowler: <span id="bowler">Bowler 1</span></div>
+                </div>
+                <div>
+                    <button id="update-names" class="btn">Update Names</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="add-1" class="btn">+1</button>
+            <button id="add-4" class="btn">+4</button>
+            <button id="add-6" class="btn">+6</button>
+            <button id="add-wicket" class="btn">Wicket</button>
+            <button id="add-ball" class="btn">+Ball</button>
+            <button id="reset" class="btn">Reset</button>
+        </div>
+
+        <div class="scorecard">
+            <h3>Scorecard</h3>
+            <table id="scorecard-table">
+                <thead>
+                    <tr><th>#</th><th>Event</th><th>Runs</th><th>Batsman</th><th>Bowler</th><th>Over</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="player-stats">
+            <div class="batting card">
+                <h3>Batting</h3>
+                <table id="batting-table">
+                    <thead><tr><th>Batsman</th><th>R</th><th>B</th><th>SR</th><th>Status</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="bowling card">
+                <h3>Bowling</h3>
+                <table id="bowling-table">
+                    <thead><tr><th>Bowler</th><th>O</th><th>R</th><th>W</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
