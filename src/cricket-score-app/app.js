@@ -1,9 +1,3 @@
-// Simple single-innings scoreboard logic
-let runs = 0;
-let wickets = 0;
-let balls = 0; // balls in current over (0-5)
-let totalBalls = 0; // total balls bowled
-
 // player stats
 const batsmen = {};
 const bowlers = {};
@@ -38,7 +32,7 @@ const bowlerEl = document.getElementById('bowler');
     if (totalBalls % 6 === 0) swapStrike();
     renderPlayerTables();
     refreshDisplay();
-}
+
 
 function addRuns(n) {
     // Wicket on a legal delivery
@@ -60,6 +54,7 @@ function addRuns(n) {
     bowlers[bowlerEl.textContent].balls += 1;
     renderPlayerTables();
     refreshDisplay();
+}
 
 function addBall() {
     totalBalls += 1;
@@ -74,6 +69,7 @@ function addBall() {
     if (totalBalls % 6 === 0) swapStrike();
     renderPlayerTables();
     refreshDisplay();
+}
 
 function resetAll() {
     runs = 0; wickets = 0; balls = 0; totalBalls = 0;
